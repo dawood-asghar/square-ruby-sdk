@@ -8,7 +8,6 @@ Gem::Specification.new do |s|
   s.homepage = ''
   s.license = 'Apache-2.0'
   s.add_dependency('logging', '~> 2.3')
-  s.add_dependency('faraday', '~> 2.0', '>= 2.0.1')
   s.add_dependency('faraday-follow_redirects', '~> 0.2')
   s.add_dependency('faraday-multipart', '~> 1.0')
   s.add_dependency('faraday-gzip', '~> 0.1')
